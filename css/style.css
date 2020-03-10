@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* main */
+
+.main {
+    width: 100%;
+    height: 1vh;
+    cursor: pointer;
+    position: relative;
+}
+
+.mainTaggle {
+    height: 5vh;
+    background-color: brown;
+}
+
+/* стиль editor */
+
+.all-editiors {
+    width: 100%;
+    height: 45vh;
+    overflow: hidden;
+}
+
+#html-editor,
+#css-editor,
+#js-editor {
+    height: 48vh;
+    width: 33.3%;
+    font-size: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+#result {
+    background-color: ;
+    width: 100%;
+    height: 50vh;
+}
+
+/* block console */
+
+.block-console {
+    width: 100%;
+    height: 50vh;
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: bottom ease 1s;
+}
+
+.top_Border_Block_Console {
+    width: 100%;
+    height: 4vh;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+}
+
+#console {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+}
+
+/* Кнопки, которые немного выше консоли */
+
+.buttonsItem {
+    display: inline-block;
+    padding-left: 1%;
+}
+
+.btn {
+    display: none;
+}
+
+#labelBtnId:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#emet {
+    position: absolute;
+}
